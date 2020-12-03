@@ -1,0 +1,70 @@
+body{
+	background-image: url("../recursos/vectores/fondo2.png");
+	backgroud-size: cover;
+}
+
+.carousel-inner .carousel-item img {
+    height: auto;
+    max-height:225px;
+    width: auto;
+}
+
+.container{
+	
+}
+
+/* contenedor de las imagenes de muestra */
+.container_2{
+	background-color: #EFE9F4;
+
+}
+
+/* contenedor de la seccion de contacto */
+.container_3 {
+	background-color: #EFE9F4;
+}
+
+#foto_div{
+    height: 50%;
+	width: 50%;
+	float: left;
+}
+
+img {
+	max-width: 25%; 
+	height:auto; 
+	text-align:center; 
+	float: left;
+}
+
+/* For width 400px and larger: */
+@media only screen and (min-width: 400px) {
+	.container_imagenes_muestra{
+		max-width:100%; 
+		height:auto; 
+		text-align:center; 
+		padding:20px; 
+	}
+	.img {
+		max-width: 25%; 
+		height:auto; 
+		text-align:center; 
+		float: left;
+	}
+  }
+
+.container_imagenes_muestra .caption{
+	padding: 4px;
+}
+
+/* Set the size of the div element that contains the map 
+	google maps
+	*/
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
+
+
+
+
